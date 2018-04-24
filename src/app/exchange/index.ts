@@ -1,2 +1,2 @@
-export * from './exchange.enum';
-export * from './exchangePairMessage.interface';
+export { Exchange } from './exchange.enum';
+export { ExchangePairMessage } from './exchangePairMessage.interface';

@@ -1,4 +1,5 @@
-import { Side, TimeInForce } from '../models';
+import { Side } from '../markets';
+import { TimeInForce } from '../models';
 import { OrderType, OrderSource } from '../orders';
 import { Exchange } from '../exchange';
 

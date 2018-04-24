@@ -1,5 +1,6 @@
-import { QuotingMode } from './QuotingMode.enum';
-import { FairValueModel, AutoPositionMode } from '../models';
+import { QuotingMode } from './quotingMode.enum';
+import { FairValueModel } from '../models';
+import { AutoPositionMode } from '../positions';
 
 export class QuotingParameters {
   constructor(

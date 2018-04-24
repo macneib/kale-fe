@@ -1,5 +1,5 @@
 import { ITimestamped } from '../timestamps';
-import { Side } from '../models';
+import { Side } from '../markets';
 
 export class GatewayMarketTrade implements ITimestamped {
   constructor(

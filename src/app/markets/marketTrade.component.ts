@@ -1,7 +1,7 @@
 import { Side } from './side.enum';
 import { MarketSide } from './marketSide.component';
 import { ITimestamped } from '../timestamps';
-import { Exchange } from '../models';
+import { Exchange } from '../gateway';
 import { CurrencyPair } from '../currency';
 import { TwoSidedQuote } from '../quotes';
 

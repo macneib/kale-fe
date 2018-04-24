@@ -6,7 +6,7 @@ import { XLargeDirective } from './x-large';
 
 import { MatTableModule, MatTableDataSource } from '@angular/material/table';
 
-import { IOrderStatusReport } from '../orderStatus';
+import { OrderStatusReport } from '../orders';
 
 @Component({
   /**
@@ -37,7 +37,6 @@ export class HomeComponent implements OnInit {
   public displayedColumns = [
     'time',
     'id',
-    ,
     'v',
     'status',
     'px',
