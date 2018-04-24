@@ -20,12 +20,6 @@ import { AppState } from './app.service';
   `
 })
 export class AppComponent implements OnInit {
-  public name = 'Angular Starter';
-  public tipe = 'assets/img/tipe.png';
-  public twitter = 'https://twitter.com/gdi2290';
-  public url = 'https://tipe.io';
-  public showDevModule: boolean = environment.showDevModule;
-
   constructor(public appState: AppState) {}
 
   public ngOnInit() {

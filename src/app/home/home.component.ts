@@ -36,21 +36,26 @@ export class HomeComponent implements OnInit {
 
   public displayedColumns = [
     'time',
-    'id',
-    'v',
-    'status',
-    'px',
-    'qty',
+    'orderId',
+    'version',
+    'orderStatus',
+    'price',
+    'quantity',
     'side',
-    'type',
+    'orderType',
     'tif',
-    'lat',
-    'lQty',
-    'cum',
-    'avg',
-    'liq'
+    'computationalLatency',
+    'lastQuantity',
+    'lastPrice',
+    'leavesQuantity',
+    'cumQuantity',
+    'averagePrice',
+    'liquidity',
+    'rejectMessage',
+    'cancel'
   ];
-  public dataSource = new MatTableDataSource(ELEMENT_DATA);
+
+  public dataSource = new MatTableDataSource(ORDER_DATA);
 
   /**
    * TypeScript public modifiers
@@ -77,4 +82,24 @@ export class HomeComponent implements OnInit {
   }
 }
 
-const ELEMENT_DATA: Element[] = [];
+const ORDER_DATA: OrderStatusReport[] = [
+  {
+    time: Date.now(),
+    orderId: '41YXDqWn',
+    version: '1',
+    orderStatus: 'Working',
+    price: 226.99,
+    quantity: 0.01,
+    side: 'Bid',
+    type: 'limit',
+    timeInForce: 'GTC',
+    computationalLatency: 2,
+    lastQuantity: 0.01,
+    lastPrice: 226.97,
+    leavesQuantity: 0,
+    cumQuantity: 0,
+    averagePrice: 226.97,
+    liquidity: '',
+    rejectMessage: ''
+  }
+];
