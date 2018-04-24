@@ -8,3 +8,5 @@ export * from './orderStatus.enum';
 export * from './liquidity.enum';
 export * from './MarketDataFlag.enum';
 export * from './OrderSource.enum';
+export * from './currency.enum';
+export * from './currencyPair.component';
