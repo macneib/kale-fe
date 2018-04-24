@@ -1,3 +1,7 @@
+import { Side, TimeInForce } from '../models';
+import { OrderType, OrderSource } from '../orders';
+import { Exchange } from '../exchange';
+
 export class SubmitNewOrder {
   constructor(
     public side: Side,

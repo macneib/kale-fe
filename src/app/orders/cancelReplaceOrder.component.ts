@@ -1,3 +1,5 @@
+import { Exchange } from '../exchange';
+
 export class CancelReplaceOrder {
   constructor(
     public origOrderId: string,

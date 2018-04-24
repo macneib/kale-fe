@@ -1,3 +1,9 @@
+import { CurrencyPair } from '../currency';
+import { Side } from '../models';
+import { OrderType, OrderStatus, OrderSource } from '../orders';
+import { TimeInForce, Liquidity } from '../models';
+import { Exchange } from '../exchange';
+
 export interface OrderStatusReport {
   pair: CurrencyPair;
   side: Side;
