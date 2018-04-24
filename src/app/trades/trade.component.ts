@@ -1,5 +1,6 @@
 import { ITimestamped } from '../timestamps';
-import { Exchange, Side, CurrencyPair, Liquidity } from '../models';
+import { Exchange, Side, Liquidity } from '../models';
+import { CurrencyPair } from '../currency';
 
 export class Trade implements ITimestamped {
   constructor(
