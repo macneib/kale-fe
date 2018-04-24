@@ -1,7 +1,7 @@
-import { Currency } from './currency.enum';
+import { ICurrency } from './currency.enum';
 
-export function fromCurrency(c: Currency): string | undefined {
-  const t = Currency[c];
+export function fromCurrency(c: ICurrency): string | undefined {
+  const t = ICurrency[c];
   if (t) {
     return t.toUpperCase();
   }

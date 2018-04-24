@@ -1,9 +1,9 @@
-import { Currency } from './currency.enum';
+import { ICurrency } from './currency.enum';
 
 export class CurrencyPair {
-  constructor(public base: Currency, public quote: Currency) {}
+  constructor(public base: ICurrency, public quote: ICurrency) {}
 
   public toString() {
-    return Currency[this.base] + '/' + Currency[this.quote];
+    return ICurrency[this.base] + '/' + ICurrency[this.quote];
   }
 }

@@ -1,4 +1,4 @@
-export enum Currency {
+export enum ICurrency {
   ADB,
   ETH,
   BTC

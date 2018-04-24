@@ -1,6 +1,6 @@
 export * from './connectivityStatus.enum';
 export * from './exchange.enum';
-export * from './side.enum';
+
 export * from './timeInForce.enum';
 export * from './liquidity.enum';
 export * from './MarketDataFlag.enum';
