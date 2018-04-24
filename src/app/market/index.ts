@@ -1,5 +1,6 @@
-export * from './side.enum';
-export * from './market.component';
-export * from './marketSide.component';
-export * from './marketSideEuqals.component';
-export * from './marketTrade.component';
+export { Side } from './side.enum';
+export { Market } from './market.component';
+export { MarketSide } from './marketSide.component';
+export { marketSideEquals } from './marketSideEuqals.component';
+export { MarketTrade } from './marketTrade.component';
+export { MarketDataFlag } from './MarketDataFlag.enum';
